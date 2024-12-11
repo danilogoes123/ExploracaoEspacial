@@ -1,6 +1,6 @@
 import { Router } from "express";
 import * as missoesController from "../controllers/missoesController";
-import { autenticar } from "../middlewares/autenticacao";
+import { autenticar } from "../middleware/autenticacao";
 
 const router = Router();
 
